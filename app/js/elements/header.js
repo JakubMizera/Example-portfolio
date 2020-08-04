@@ -3,9 +3,9 @@ import React from "react";
 const Header = () => {
     return (
         <header>
-            <section>
+            <section className="headerContainer">
                 <div className="logo">
-                    <img src="../../../images/apollostack.svg" alt="logo"/>
+                    <img className="logo2" src="../../images/spacex.svg" alt="logo"/>
                     <span>Front-end developer</span>
                 </div>
                 <nav>
