@@ -4,19 +4,21 @@ const Header = () => {
     return (
         <header>
             <div className="containerHeader">
-                <div className="topBar">
-                    <div className="logo">
-                        <img src="../../images/Icon%20Logo%20Normal.svg" alt="pagelogo"/>
-                        <p><span>CAR</span>SHARING</p>
+                <div id="shadowElem">
+                    <div className="topBar">
+                        <div className="logo">
+                            <img src="../../images/Icon%20Logo%20Normal.svg" alt="pagelogo"/>
+                            <p><span>CAR</span>SHARING</p>
+                        </div>
+                        <nav>
+                            <ul>
+                                <li><a href="#">HOME</a></li>
+                                <li><a href="#">BLOG</a></li>
+                                <li><a href="#">SERVICE</a></li>
+                                <li><a href="#">CONTACT</a></li>
+                            </ul>
+                        </nav>
                     </div>
-                    <nav>
-                        <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">BLOG</a></li>
-                            <li><a href="#">SERVICE</a></li>
-                            <li><a href="#">CONTACT</a></li>
-                        </ul>
-                    </nav>
                 </div>
                 <div className="headerMain">
                     <h1>CAR SHARING</h1>
@@ -27,7 +29,7 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="arrowDown">
-
+                    <img src="../../images/Icon%20Arrow%20Down.svg" alt="arrow down"/>
                 </div>
             </div>
         </header>
