@@ -4,6 +4,7 @@ import "../scss/main.scss";
 
 import {Header} from "./elements/header"
 import {Main} from "./elements/main"
+import {Contact} from "./elements/contact"
 
 
 const App = () => {
@@ -11,6 +12,7 @@ const App = () => {
         <div className="containerPage">
             <Header/>
             <Main/>
+            <Contact/>
         </div>
     )
 }
