@@ -1,28 +1,91 @@
-.headerContainer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  .logo {
-    font-size: 3rem;
+.containerHeader {
+  width: 1088px;
+  margin: 0 auto;
+  height: 807px;
+  .topBar {
     display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    width: 50%;
-    img {
-      width: 15%;
+    justify-content: space-between;
+    align-items: flex-start;
+    position: relative;
+    &::after {
+      content: "";
+      width: 1366px;
+      height: 90px;
+      background-color: rgba(0, 0, 0, 0.4);
+      position: absolute;
+      left: -139px;
+      z-index: 1;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+      padding: 20px 0;
+      img {
+        width: 31px;
+        height: 35px;
+      }
+      p {
+        color: white;
+        font: Bold 35px/47px Nunito Sans;
+        span {
+          color: #FF0000;
+        }
+      }
+    }
+    nav {
+      ul {
+        display: flex;
+        align-items: center;
+        li {
+          padding: 35px 30px;
+          a {
+            color: white;
+            font: Bold 16px/22px Nunito Sans;
+          }
+        }
+      }
     }
   }
-  ul {
+  .headerMain {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
-    li a {
-      text-decoration: none;
+    flex-direction: column;
+    justify-content: center;
+    h1 {
+      font-size: 90px;
+      font-weight: 900;
+      font-family: 'Nunito Sans', sans-serif;
       color: white;
-      padding: 20px;
-      font-size: 2rem;
+      text-align: center;
+      margin-top: 170px;
+    }
+    p {
+      font: Bold 16px/22px Nunito Sans;
+      color: white;
+      text-align: center;
+      margin-top: 30px;
+    }
+    .btnContainer {
+      display: flex;
+      justify-content: center;
+      margin-top: 50px;
+      .button {
+        width: 218px;
+        height: 68px;
+        border-radius: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font: Bold 16px/22px Nunito Sans;
+      }
+      .btn1 {
+        background-color: #FF0000;
+        color: white;
+        margin-right: 25px;
+      }
+      .btn2 {
+        background-color: white;
+        color: #FF0000;
+      }
     }
   }
 }
-
