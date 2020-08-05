@@ -3,7 +3,8 @@ import React from "react";
 const Header = () => {
     return (
         <header>
-            <div className="containerHeader">
+            <div className="wrapper">
+                <div className="containerHeader">
                 <div id="shadowElem">
                     <div className="topBar">
                         <div className="logo">
@@ -31,6 +32,7 @@ const Header = () => {
                 <div className="arrowDown">
                     <img src="../../images/Icon%20Arrow%20Down.svg" alt="arrow down"/>
                 </div>
+            </div>
             </div>
         </header>
     )
