@@ -1,0 +1,58 @@
+.footer-container {
+  background-color: #28272C;
+  display: flex;
+  justify-content: space-between;
+  height: 232px;
+  .logo {
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    img {
+      width: 16px;
+      height: 19px;
+      margin-right: 8px;
+    }
+    p {
+      color: white;
+      font: Bold 25px/34px Nunito Sans;
+      span {
+        color: #FF0000;
+        margin-right: 8px;
+      }
+    }
+  }
+  .links {
+    display: flex;
+    ul {
+      display: flex;
+      flex-direction: column;
+      margin-right: 140px;
+      li {
+        a {
+          font: Bold 14px/19px Nunito Sans;
+          color: white;
+          &:hover {
+            color: #FF0000;
+          }
+        }
+      }
+    }
+  }
+  .copyright {
+    display: flex;
+    span {
+      align-self: flex-end;
+      margin-bottom: 40px;
+      margin-right: 140px;
+      font-size: 12px;
+      font-family: "Nunito Sans";
+      font-weight: 300;
+      color: #D1D1D1;
+    }
+  }
+}
+
+.position {
+  margin-left: 140px;
+}

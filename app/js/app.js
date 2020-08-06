@@ -5,6 +5,7 @@ import "../scss/main.scss";
 import {Header} from "./elements/header"
 import {Main} from "./elements/main"
 import {Contact} from "./elements/contact"
+import {Footer} from "./elements/footer";
 
 
 const App = () => {
@@ -13,6 +14,7 @@ const App = () => {
             <Header/>
             <Main/>
             <Contact/>
+            <Footer/>
         </div>
     )
 }
