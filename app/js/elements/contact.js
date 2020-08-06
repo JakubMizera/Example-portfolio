@@ -19,11 +19,11 @@ const Contact = () => {
                         <label className="form-label"/>
                         <input type="text" className="form-input message" id="name" placeholder="Type your message"/>
                     </div>
-                    <div className="form__consent">
-                        <label className="form__checkbox">
+                    <div className="form-consent">
+                        <label className="form-checkbox">
                             <input type="checkbox"/>
                             <span className="checkbox"/>
-                            <p className="consent__text">
+                            <p className="consent-text">
                                 I hereby give consent for my personal data included in my
                                 application to be processed for the purposes of the recruitment
                                 process under the European Parliament’s and Council of the
